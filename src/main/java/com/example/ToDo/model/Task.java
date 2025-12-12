@@ -19,20 +19,20 @@ public class Task {
     public Task() {
     }
 
-    public Task(long id,String title, String description, boolean done) {
+    public Task(String title, String description, boolean done) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.done = done;
     }
 
-//    public long getId() {
-//        return id;
-//    }
+    public long getId() {
+        return id;
+    }
 
-//    public void setId(long id) {
-//        this.id = id;
-//    }
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public String getTitle() {
         return title;
