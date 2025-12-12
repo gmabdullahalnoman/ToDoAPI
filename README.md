@@ -13,13 +13,14 @@ This would allows to create, read, update and delete tasks through REST API endp
                         - Import the endpoints manually.
                         - Use JSON body for POST/PUT.
                         - Check responses instanly.
+                        ]
 
 #Technologies used
 - Java 17+
 - SpringBoot
 - SpringWeb
 - SpringDataJPA
-- H2 Database
+- MySQL Database
 - Maven
 
 #Structure
